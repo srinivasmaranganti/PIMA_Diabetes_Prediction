@@ -1,0 +1,26 @@
+# Core
+numpy
+requests
+python-dotenv
+pydantic
+
+# Async / HTTP / API
+aiohttp
+fastapi
+uvicorn[standard]
+
+# ML / NLP (optional; heavy)
+transformers
+sentencepiece
+torch
+
+# Development & testing
+pytest
+pytest-asyncio
+black
+mypy
+
+# Notes:
+# - If you only need CPU PyTorch builds, install torch from the official
+#   PyTorch index: `pip install --index-url https://download.pytorch.org/whl/cpu torch`
+# - Pin versions if you need reproducible installs.
